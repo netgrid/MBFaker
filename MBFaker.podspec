@@ -1,7 +1,7 @@
 # coding: utf-8
 Pod::Spec.new do |s|
   s.name     = 'MBFaker'
-  s.version  = '0.1.2'
+  s.version  = '0.1.3'
   s.platform = :ios, '5.0'
   s.platform = :osx, '10.7'
   s.license  = 'MIT'
