@@ -2,8 +2,8 @@
 Pod::Spec.new do |s|
   s.name     = 'MBFaker'
   s.version  = '0.1.3'
-  s.platform = :ios, '5.0'
-  s.platform = :osx, '10.7'
+  s.ios.deployment_target = '5.0'
+  s.osx.deployment_target = '10.7'
   s.license  = 'MIT'
   s.summary  = 'Library that generates fake data.'
   s.homepage = 'https://github.com/traansmission/MBFaker'
