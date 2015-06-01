@@ -110,15 +110,15 @@
 }
 
 + (NSInteger) hourFromTimeInterval:(NSTimeInterval) time {
-    return abs(time) / NUM_SECONDS_PER_HOUR;
+    return (int)fabs(time) / NUM_SECONDS_PER_HOUR;
 }
 
 + (NSInteger) minuteFromTimeInterval:(NSTimeInterval) time {
-    return abs(time) % NUM_SECONDS_PER_HOUR / NUM_SECONDS_PER_MINUTE;
+    return (int)fabs(time) % NUM_SECONDS_PER_HOUR / NUM_SECONDS_PER_MINUTE;
 }
 
 + (NSInteger) secondFromTimeInterval:(NSTimeInterval) time {
-    return abs(time) % NUM_SECONDS_PER_MINUTE;
+    return (int)fabs(time) % NUM_SECONDS_PER_MINUTE;
 }
 
 + (NSDateComponents*) newDateComponentWithTime:(NSDateComponents*) date period:(Period) period {
