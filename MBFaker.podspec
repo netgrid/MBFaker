@@ -5,9 +5,9 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '5.0'
   s.license  = 'MIT'
   s.summary  = 'Library that generates fake data.'
-  s.homepage = 'https://github.com/traansmission/MBFaker'
+  s.homepage = 'https://github.com/netgrid/MBFaker'
   s.author   = { 'Michał Banasiak' => 'm.banasiak@icloud.com', 'Kevin Y. Kim' => 'kevin@traansmission.com', 'Daniel Chong' => 'http://www.stillpig.com/contact/', 'Simone Camporeale' => 'simone.camporeale@netgrid.it', 'Sean Soper' => 'sean.soper@gmail.com' }
-  s.source   = { :git => 'https://github.com/traansmission/MBFaker.git', :tag => s.version.to_s }
+  s.source   = { :git => 'https://github.com/netgrid/MBFaker.git', :tag => s.version.to_s }
   s.resources = 'MBFaker/**/*.yml'
 
   s.description = 'This library is a port of Ruby Faker library that generates fake data.'
